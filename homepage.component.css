@@ -1,0 +1,32 @@
+main{
+    justify-content: center;
+    gap: 20px;
+    padding: 25px;
+    margin: 80px;
+    flex-wrap: wrap;
+    display: flex;
+    
+            
+}
+
+
+
+.section-box{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(119, 238, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 6px;
+    flex-direction: column;
+    cursor: pointer;
+    
+    
+    
+}
+.section-box:hover{
+    background-color: rgb(50, 214, 184);
+    
+}
